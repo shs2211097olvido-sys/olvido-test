@@ -30,3 +30,37 @@ ul {
     list-style: none;
 
 }
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    nav ul {
+        display: flex;
+        gap: 20px;
+
+        main {
+            display:
+                flex-wrap: wrap;
+            gap: 20px;
+            padding: 50px;
+
+                {
+                main section {
+                    flex: 1;
+                    padding: 20px;
+                    min-width: 300px;
+                    boarder: 1px solid #black;
+                    padding: 20px;
+                }
+            }
+
+
+
+
+        }
+    }
+
+
+}
