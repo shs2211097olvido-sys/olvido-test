@@ -40,7 +40,7 @@ console.log(serviceHeading);
 const projectHeading = document.querySelector("#projects h2");
 console.log(projectHeading);
 
-//Text Context
+
 
 heading.textContent = "My portfolio";
 contactHeading.textContent = "Let's Connect!";
@@ -53,3 +53,27 @@ heading.style.backgroundColor = "yellow";
 contactHeading.style.color = "purple";
 serviceHeading.style.color = "purple";
 projectHeading.style.color = "purple";
+
+
+heading.addEventListener("click", function () {
+    heading.style.color = "red";
+
+})
+
+const toggleButton = document.querySelector('#switch');
+const body = document.querySelector('body');
+let isOff = false;
+
+toggleButton.addEventListener("click", function () {
+    isOff = !isOff;
+
+    if (isOff) {
+        body.style.backgroundColor = "black";
+        body.style.color = "white";
+
+    } else {
+        body.style.backgroundColor = "white";
+        body.style.color = "black";
+
+    }
+});
