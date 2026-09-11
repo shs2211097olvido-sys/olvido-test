@@ -12,18 +12,31 @@ console.log("Address: " + address);
 
 //functions
 function greet(name) {
-
+    return `good morning, ${name}`;
 }
-return `Good Morning, ${name}`;
+console.log(greet("Rene"));
+
 
 function mdas(num1, num2) {
     let m = num1 * num2;
     let d = num1 / num2;
     let a = num1 + num2;
-    let s = num1 = num2;
+    let s = num1 - num2;
 
-    return (`Values: ${num1} and /${num2}. PRODUCT ${m}, Quotient: ${d}, Sum: ${a}, Diff: ${s}`);
 
+    return (`Values: ${num1} and ${num2}. PRODUCT: ${m}, Quotient: ${d}, Sum: ${a}, Difference: ${s}`);
 }
 console.log(mdas(5, 3));
+
+const heading = document.querySelector("h1")
+console.log(heading);
+
+const contactHeading = document.querySelector("#contact h2");
+console.log(contactHeading);
+
+const projectHeading = document.querySelector("#services h2");
+console.log(projectHeading);
+
+
+
 
