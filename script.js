@@ -43,7 +43,7 @@ console.log(projectHeading);
 
 
 heading.textContent = "My portfolio";
-contactHeading.textContent = "Let's Connect!";
+contactHeading.textContent = "Let's connect!";
 serviceHeading.textContent = "My Services";
 projectHeading.textContent = "My Projects";
 
