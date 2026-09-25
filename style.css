@@ -10,27 +10,20 @@ h2 {
 
 #projects {
     color: rgb(13, 99, 66);
-<<<<<<< HEAD
-    background-color: aqua;
-=======
-    background-color: orange;
->>>>>>> hot-theme
+    <<<<<<< HEAD background-color: aqua;
+    =======background-color: orange;
+    >>>>>>>hot-theme
+    
 }
 
 #services {
     color: rgb(70, 45, 7);
-<<<<<<< HEAD
-
-=======
->>>>>>> hot-theme
+    <<<<<<< HEAD=======>>>>>>>hot-theme
 }
 
 .contact {
     color: orange;
-<<<<<<< HEAD
-    background-color: orange
-=======
->>>>>>> hot-theme
+    <<<<<<< HEAD background-color: orange=======>>>>>>> hot-theme
 }
 
 body {
