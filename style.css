@@ -15,10 +15,12 @@ h2 {
 
 #services {
     color: rgb(70, 45, 7);
+
 }
 
 .contact {
     color: orange;
+    background-color: orange
 }
 
 body {
